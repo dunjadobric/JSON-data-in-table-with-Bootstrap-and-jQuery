@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.section {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+@media (max-width: 400px) {
+    .headline {
+        font-size: 1rem;
+    }
+}
